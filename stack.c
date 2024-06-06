@@ -12,7 +12,7 @@ void push(int element) {
         printf("Element %d pushed into stack\n", element);
     }
 }
-
+ 
 void pop() {
     if (top == -1) {
         printf("Stack is empty\n");
